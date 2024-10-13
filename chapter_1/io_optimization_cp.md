@@ -24,4 +24,23 @@ int main() {
 }
 ```
 
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+using namespace std::chrono;
+
+int main() {
+    string a;
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cout << "Sleeping...." << endl;
+    cout << "hi" << "\n";
+    cin >> a;
+    cout << a;
+    this_thread::sleep_for(chrono::seconds(2));
+    cout << "hello" << "\n";
+}
+```
+
 This combination is useful when you need very fast input/output handling, which is common in competitive programming where large amounts of data need to be processed quickly.
