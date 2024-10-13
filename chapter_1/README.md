@@ -33,3 +33,6 @@ REP(i,1,n) {
 search(i);
 }
 ```
+
+This chapter also went through some math stuff that I'll review later.
+
